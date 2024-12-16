@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(249, 249, 249);
+}
+
+.header {
+    background-color: #1E1E1E;
+    padding: 20px 0 20px 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(249, 249, 249);
+    font-size: 4em;
+    font-weight: bolder;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.request-div {
+    padding: 50px;
+    margin: 5vh 10vw;
+    border-radius: 20px;
+    box-shadow: 5px 5px 7px rgb(243, 243, 243), -5px -5px 7px rgb(255, 255, 255);
+}
+
+.dropdown, #search-text {
+    margin-bottom: 10px;
+}
+
+#table-rating-price img {
+    width: 70px;
+    border-radius: 5px;
+}
+
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner td div.dash-cell-value.cell-markdown, .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner th div.dash-cell-value.cell-markdown
+{
+  text-align: center !important;
+}
+
+.generate-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#random-book-button {
+    margin-left: 20px;
+    height: 30px;
+}
+
+.random-book-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.random-book-desc {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.random-book-container img {
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
